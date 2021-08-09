@@ -1,1 +1,11 @@
-console.log("Hello class :D nice to meet you")
+const express = require('express')
+const app = express()
+const port = process.env.PORT
+
+app.get('/', (req, res) => {
+  res.send('<h1>Hello World!</h1>')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
