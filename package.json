@@ -1,0 +1,19 @@
+{
+  "name": "node-js-sechei-app",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radu9813/node-js-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radu9813/node-js-app/issues"
+  },
+  "homepage": "https://github.com/radu9813/node-js-app#readme"
+}
